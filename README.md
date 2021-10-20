@@ -1,2 +1,2 @@
 # shani.freiman
-this is 
+this is my first github - shani rita freiman

@@ -1,0 +1,21 @@
+* {
+color:green;
+background-color:gray;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+font-size: 25px;
+}
+
+
+.h1 {
+        color:black;
+        font-size:40px;
+}
+
+#Email {
+        color: blue;
+}
+
+h2 {
+        color: hotpink;
+}

@@ -1,5 +1,5 @@
 body{
-    background-color:pink;
+    background-color:black;
 }
 #GridContainer {
     display: grid;
@@ -12,7 +12,7 @@ body{
 #item1 {
     grid-area:header;
     width:100%;
-    background-color: red;
+    background-color: orange;
     height:33vh;
 }
 
@@ -26,13 +26,13 @@ body{
 #item3 {
 grid area:main;
     width:100%;
-    background-color:yellow;
+    background-color:red;
     height:66vh;
 }
 
 @media only screen and (max-width: 600px){
     body{
-    background-color: black;
+    background-color: yellow;
         }
 #GridContainer {
     display: grid;

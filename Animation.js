@@ -5,6 +5,7 @@ function myName(){
 
 var x=5, y=7, check= (x==y);
 
+
 console.log(check)
 
 function changepic(){

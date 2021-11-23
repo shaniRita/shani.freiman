@@ -1,0 +1,88 @@
+#GridConteiner{
+    display: grid;
+    grid-template-areas:
+   'header header header header'
+   'right main main main'
+   'right main main';
+}
+
+#item1{
+    grid-area: header;
+    width: 100%;
+    background-color: yellow;
+    height: 20vh;}
+
+#item2{
+    grid-area: right;
+    width: 100%;
+    background-color: rgb(5, 96, 83);
+    height: 66vh;}
+
+#item3{
+    grid-area: main;
+    width: 100%;
+    background-color: cadetblue;
+    height: 66vh;}
+
+@media only screen and (max-width:600px ){
+    body{
+            background-color: rgb(518, 22, 1445);
+        }
+    #GridConteiner{
+            display: grid;
+            grid-template-areas:
+           'header'
+           'main'
+           'center';
+        }
+    }
+
+:root{
+        --lightgreen: rgb(77, 109, 224)
+    }
+    
+*{
+        font-family:"Agency FB";
+ }
+    
+.input{
+        background-color: rgb(63, 67, 112);
+    }
+    
+input.input{
+        border: 1px solid white;
+    }
+    
+    @font-face {
+        font-family:Agency FB;
+    }
+    
+body{
+        background-color: #9b7731;
+    }
+div{
+       text-align: center;
+    }
+
+button{
+    height: 20%;
+    font-size: 50px;
+    background-color: yellow;
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+        justify-content: right;
+}
+    
+@keyframes blink {
+    0%{background-color: yellow; border-radius: 0%;}
+    50% {background-color: hotpink;border-radius: 50%;}
+    100%{background-color: deeppink;border-radius: 100%;}
+    50% {background-color: hotpink;border-radius: 50%;}
+    0%{background-color: yellow; border-radius: 0%;}
+}
+
+        
+    
+
+
